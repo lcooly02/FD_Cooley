@@ -11,7 +11,7 @@
 <body>
     <form id="form1" runat="server">
 
-        <h2>Favorite Dessert Form</h2>
+        <h2>Favorite Dessert Records</h2>
 
         Enter your name:
         <asp:TextBox ID="txtName" runat="server" />
