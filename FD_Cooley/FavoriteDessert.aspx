@@ -14,7 +14,7 @@
         <h2>Favorite Dessert Records</h2>
 
         Enter your name:
-        <asp:TextBox ID="txtName" runat="server" />
+        <asp:TextBox ID="txtName" runat="server" MaxLength="50" />
 
         <asp:RequiredFieldValidator
             ID="valName"
