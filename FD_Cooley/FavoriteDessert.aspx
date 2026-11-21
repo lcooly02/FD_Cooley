@@ -30,6 +30,7 @@
             <asp:ListItem>Ice Cream</asp:ListItem>
             <asp:ListItem>Cookies</asp:ListItem>
             <asp:ListItem>Pie</asp:ListItem>
+            <asp:ListItem>Pastries</asp:ListItem>
         </asp:DropDownList>
         <br /><br />
 
