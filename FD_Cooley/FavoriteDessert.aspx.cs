@@ -18,5 +18,6 @@ public partial class FavoriteDessert : Page
         ddlDessert.SelectedIndex = 0;
         chkChocolate.Checked = false;
         gvDesserts.DataBind();
+        txtName.Focus();
     }
 }
