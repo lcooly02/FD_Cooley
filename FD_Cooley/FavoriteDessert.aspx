@@ -46,6 +46,7 @@
 
         <asp:Label ID="lblResult" runat="server" />
 <h3>Saved Dessert Records</h3>
+        <p>Click Edit to modify an existing record or Delete to remove a record.</p>
     <asp:GridView ID="gvDesserts" runat="server"
         AutoGenerateColumns="False" DataKeyNames="DessertID"
         DataSourceID="dsDesserts">
