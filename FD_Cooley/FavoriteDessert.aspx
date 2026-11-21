@@ -49,6 +49,7 @@
         <p>Click Edit to modify an existing record or Delete to remove a record.</p>
     <asp:GridView ID="gvDesserts" runat="server"
         AutoGenerateColumns="False" DataKeyNames="DessertID"
+        EmptyDataText="No dessert records have been entered."
         DataSourceID="dsDesserts">
         <Columns>
             <asp:BoundField DataField="DessertID" HeaderText="ID" ReadOnly="True" />
